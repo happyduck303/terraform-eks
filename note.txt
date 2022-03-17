@@ -1,0 +1,9 @@
+======================================================================================
+problem : gara gara hapus file .tfstate jadihapus manual
+https://github.com/hashicorp/terraform-provider-aws/issues/8041
+
+$ aws iam list-instance-profiles | grepterraform-eks-demo
+$ aws iam list-instance-profiles | grep terraform-eks-demo
+$ aws iam delete-instance-profile --instance-profile-nameterraform-eks-demo
+$ aws iam delete-instance-profile --instance-profile-name terraform-eks-demo
+
